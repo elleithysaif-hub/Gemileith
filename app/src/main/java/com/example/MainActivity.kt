@@ -69,6 +69,9 @@ import androidx.lifecycle.compose.collectAsStateWithLifecycle
 import androidx.lifecycle.viewmodel.compose.viewModel
 import coil.compose.AsyncImage
 import coil.request.ImageRequest
+import com.example.core.LauncherState
+import com.example.launcher.LauncherScreen
+import com.example.launcher.LauncherViewModel
 import com.example.ui.theme.MyApplicationTheme
 import com.example.ui.theme.SemanticCyan
 import com.example.ui.theme.SemanticMagenta
@@ -102,6 +105,8 @@ class MainActivity : ComponentActivity() {
     setContent {
       val viewModel = viewModel<SystemViewModel>()
       val uiState by viewModel.uiState.collectAsStateWithLifecycle()
+      val launcherViewModel = remember { LauncherViewModel() }
+      val launcherState by launcherViewModel.uiState
       var currentTab by remember { mutableStateOf("HOME") }
 
       MyApplicationTheme(darkTheme = uiState.isDarkMode) {
@@ -156,7 +161,12 @@ class MainActivity : ComponentActivity() {
             ) { targetTab ->
                 when (targetTab) {
                     "HOME" -> SystemControlScreen(uiState, onVolumeChange = { viewModel.setVolume(it) }, modifier = Modifier.fillMaxSize())
-                    "TOOLS" -> AppDrawerScreen(uiState, onLaunch = { viewModel.launchApp(it) }, onSearch = { viewModel.updateSearchQuery(it) }, modifier = Modifier.fillMaxSize())
+                    "TOOLS" -> LauncherScreen(
+                        state = launcherState,
+                        onQueryChanged = { launcherViewModel.onQueryChanged(it) },
+                        onAppSelected = { launcherViewModel.launchApp(it) },
+                        modifier = Modifier.fillMaxSize()
+                    )
                     "CORE" -> CoreSettingsScreen(
                         uiState, 
                         onToggleWifi = { 

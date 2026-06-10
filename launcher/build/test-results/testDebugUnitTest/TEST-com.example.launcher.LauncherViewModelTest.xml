@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.example.launcher.LauncherViewModelTest" tests="2" skipped="0" failures="0" errors="0" timestamp="2026-06-10T18:09:44.227Z" hostname="codespaces-1907ae" time="0.184">
+  <properties/>
+  <testcase name="launching an app marks it as selected" classname="com.example.launcher.LauncherViewModelTest" time="0.116"/>
+  <testcase name="filtering by query returns matching apps" classname="com.example.launcher.LauncherViewModelTest" time="0.038"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

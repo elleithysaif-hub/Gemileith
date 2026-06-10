@@ -1,0 +1,16 @@
+-- Merging decision tree log ---
+manifest
+ADDED from /workspaces/Gemileith/launcher/build/intermediates/tmp/ProcessLibraryManifest/debug/tempAndroidManifest6245941507257289734.xml:2:13-83
+INJECTED from /workspaces/Gemileith/launcher/build/intermediates/tmp/ProcessLibraryManifest/debug/tempAndroidManifest6245941507257289734.xml:2:13-83
+	package
+		INJECTED from /workspaces/Gemileith/launcher/build/intermediates/tmp/ProcessLibraryManifest/debug/tempAndroidManifest6245941507257289734.xml
+	xmlns:android
+		ADDED from /workspaces/Gemileith/launcher/build/intermediates/tmp/ProcessLibraryManifest/debug/tempAndroidManifest6245941507257289734.xml:2:23-81
+uses-sdk
+INJECTED from /workspaces/Gemileith/launcher/build/intermediates/tmp/ProcessLibraryManifest/debug/tempAndroidManifest6245941507257289734.xml reason: use-sdk injection requested
+INJECTED from /workspaces/Gemileith/launcher/build/intermediates/tmp/ProcessLibraryManifest/debug/tempAndroidManifest6245941507257289734.xml
+INJECTED from /workspaces/Gemileith/launcher/build/intermediates/tmp/ProcessLibraryManifest/debug/tempAndroidManifest6245941507257289734.xml
+	android:targetSdkVersion
+		INJECTED from /workspaces/Gemileith/launcher/build/intermediates/tmp/ProcessLibraryManifest/debug/tempAndroidManifest6245941507257289734.xml
+	android:minSdkVersion
+		INJECTED from /workspaces/Gemileith/launcher/build/intermediates/tmp/ProcessLibraryManifest/debug/tempAndroidManifest6245941507257289734.xml

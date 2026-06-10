@@ -1,0 +1,8 @@
+com.example.launcher-pngs-0 /workspaces/Gemileith/launcher/build/generated/res/pngs/debug
+com.example.launcher-updated_navigation_xml-1 /workspaces/Gemileith/launcher/build/generated/updated_navigation_xml/debug
+com.example.launcher-mergeDebugResources-2 /workspaces/Gemileith/launcher/build/intermediates/incremental/debug/mergeDebugResources/merged.dir
+com.example.launcher-mergeDebugResources-3 /workspaces/Gemileith/launcher/build/intermediates/incremental/debug/mergeDebugResources/stripped.dir
+com.example.launcher-debug-4 /workspaces/Gemileith/launcher/build/intermediates/merged_res/debug/mergeDebugResources
+com.example.launcher-debug-5 /workspaces/Gemileith/launcher/build/intermediates/packaged_res/debug/packageDebugResources
+com.example.launcher-debug-6 /workspaces/Gemileith/launcher/src/debug/res
+com.example.launcher-main-7 /workspaces/Gemileith/launcher/src/main/res

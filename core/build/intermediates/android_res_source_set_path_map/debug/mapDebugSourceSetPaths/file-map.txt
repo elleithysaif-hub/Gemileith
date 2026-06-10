@@ -1,0 +1,8 @@
+com.example.core-pngs-0 /workspaces/Gemileith/core/build/generated/res/pngs/debug
+com.example.core-updated_navigation_xml-1 /workspaces/Gemileith/core/build/generated/updated_navigation_xml/debug
+com.example.core-mergeDebugResources-2 /workspaces/Gemileith/core/build/intermediates/incremental/debug/mergeDebugResources/merged.dir
+com.example.core-mergeDebugResources-3 /workspaces/Gemileith/core/build/intermediates/incremental/debug/mergeDebugResources/stripped.dir
+com.example.core-debug-4 /workspaces/Gemileith/core/build/intermediates/merged_res/debug/mergeDebugResources
+com.example.core-debug-5 /workspaces/Gemileith/core/build/intermediates/packaged_res/debug/packageDebugResources
+com.example.core-debug-6 /workspaces/Gemileith/core/src/debug/res
+com.example.core-main-7 /workspaces/Gemileith/core/src/main/res
