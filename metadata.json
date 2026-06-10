@@ -1,0 +1,6 @@
+{
+  "name": "System Control",
+  "description": "An elegant dark theme system control dashboard.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
