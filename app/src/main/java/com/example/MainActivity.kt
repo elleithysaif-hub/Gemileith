@@ -85,6 +85,16 @@ import androidx.compose.material.icons.outlined.NotificationsActive
 import androidx.compose.material.icons.outlined.PictureAsPdf
 import androidx.compose.material.icons.filled.Notifications
 
+@Composable
+fun Greeting(name: String) {
+  Text(
+    text = "Hello $name!",
+    color = MaterialTheme.colorScheme.onBackground,
+    fontSize = 24.sp,
+    fontWeight = FontWeight.Medium
+  )
+}
+
 class MainActivity : ComponentActivity() {
   override fun onCreate(savedInstanceState: Bundle?) {
     super.onCreate(savedInstanceState)
