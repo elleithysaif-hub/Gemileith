@@ -20,7 +20,9 @@ console.log('Uploading ' + filePath + ' (' + fileSize + ' bytes)...');
 
 const req = https.request(options, (res) => {
   let responseBody = '';
-  res.on('data', (chunk) => responseBody += chunk);
+  res.on('data', (chunk) => {
+    responseBody += chunk.toString();
+  });
   res.on('end', () => console.log('File Link:', responseBody.trim()));
 });
 
