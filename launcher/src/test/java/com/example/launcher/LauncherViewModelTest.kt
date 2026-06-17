@@ -1,6 +1,6 @@
-package com.example.launcher
+package com.gemileith.launcher
 
-import com.example.core.LauncherItem
+import com.gemileith.core.LauncherItem
 import org.junit.Assert.assertEquals
 import org.junit.Assert.assertTrue
 import org.junit.Test

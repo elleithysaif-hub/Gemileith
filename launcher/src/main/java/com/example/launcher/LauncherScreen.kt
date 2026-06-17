@@ -1,4 +1,4 @@
-package com.example.launcher
+package com.gemileith.launcher
 
 import androidx.compose.foundation.background
 import androidx.compose.foundation.border
@@ -26,8 +26,8 @@ import androidx.compose.ui.Modifier
 import androidx.compose.ui.draw.clip
 import androidx.compose.ui.graphics.Color
 import androidx.compose.ui.unit.dp
-import com.example.core.LauncherItem
-import com.example.core.LauncherState
+import com.gemileith.core.LauncherItem
+import com.gemileith.core.LauncherState
 
 @Composable
 fun LauncherScreen(

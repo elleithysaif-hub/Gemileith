@@ -4,11 +4,11 @@ plugins {
 }
 
 android {
-  namespace = "com.example.launcher"
+  namespace = "com.gemileith.launcher"
   compileSdk { version = release(36) { minorApiLevel = 1 } }
 
   defaultConfig {
-    minSdk = 24
+    minSdk = 31
     testInstrumentationRunner = "androidx.test.runner.AndroidJUnitRunner"
   }
 

@@ -1,4 +1,4 @@
-package com.example
+package com.gemileith.launcher
 
 import android.app.Application
 import android.app.ActivityManager

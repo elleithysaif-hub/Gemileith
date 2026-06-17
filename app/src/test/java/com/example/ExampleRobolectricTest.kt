@@ -1,4 +1,4 @@
-package com.example
+package com.gemileith.launcher
 
 import android.content.Context
 import androidx.test.core.app.ApplicationProvider

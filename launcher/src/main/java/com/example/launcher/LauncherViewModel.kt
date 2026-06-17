@@ -1,9 +1,9 @@
-package com.example.launcher
+package com.gemileith.launcher
 
 import androidx.compose.runtime.State
 import androidx.compose.runtime.mutableStateOf
-import com.example.core.LauncherItem
-import com.example.core.LauncherState
+import com.gemileith.core.LauncherItem
+import com.gemileith.core.LauncherState
 
 class LauncherViewModel {
     private val _uiState = mutableStateOf(

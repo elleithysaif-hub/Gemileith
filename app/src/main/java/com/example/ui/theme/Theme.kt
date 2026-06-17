@@ -1,4 +1,4 @@
-package com.example.ui.theme
+package com.gemileith.launcher.ui.theme
 
 import android.app.Activity
 import android.os.Build

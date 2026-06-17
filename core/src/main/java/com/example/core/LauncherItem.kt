@@ -1,4 +1,4 @@
-package com.example.core
+package com.gemileith.core
 
 import androidx.compose.runtime.Immutable
 

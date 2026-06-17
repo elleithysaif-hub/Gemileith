@@ -14,5 +14,19 @@
 .externalNativeBuild
 .cxx
 local.properties
+
+# Environment & Secrets - NEVER COMMIT
 .env
-debug.keystore
+.env.local
+.env.*.local
+
+# Keystores & Signing Keys - SECURITY CRITICAL
+*.keystore
+*.jks
+*.keystore.base64
+debug.keystore*
+my-upload-key.jks
+
+# Credentials & API Keys
+credentials.json
+service-account-key.json

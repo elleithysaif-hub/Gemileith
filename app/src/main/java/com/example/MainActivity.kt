@@ -1,4 +1,4 @@
-package com.example
+package com.gemileith.launcher
 
 import android.os.Bundle
 import android.content.Intent
@@ -69,13 +69,13 @@ import androidx.lifecycle.compose.collectAsStateWithLifecycle
 import androidx.lifecycle.viewmodel.compose.viewModel
 import coil.compose.AsyncImage
 import coil.request.ImageRequest
-import com.example.core.LauncherState
-import com.example.launcher.LauncherScreen
-import com.example.launcher.LauncherViewModel
-import com.example.ui.theme.MyApplicationTheme
-import com.example.ui.theme.SemanticCyan
-import com.example.ui.theme.SemanticMagenta
-import com.example.ui.theme.SemanticAmber
+import com.gemileith.core.LauncherState
+import com.gemileith.launcher.LauncherScreen
+import com.gemileith.launcher.LauncherViewModel
+import com.gemileith.launcher.ui.theme.MyApplicationTheme
+import com.gemileith.launcher.ui.theme.SemanticCyan
+import com.gemileith.launcher.ui.theme.SemanticMagenta
+import com.gemileith.launcher.ui.theme.SemanticAmber
 import kotlinx.coroutines.delay
 import kotlinx.coroutines.launch
 
